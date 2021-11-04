@@ -1,6 +1,7 @@
 ﻿
 using System.Windows;
 using EmailLibrary;
+using System.Threading;
 
 namespace EmailFrontend
 {
@@ -17,6 +18,9 @@ namespace EmailFrontend
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             EmailSender.Send(Recipient.Text, Subject.Text, Body.Text);
+            Recipient.Text = string.Empty;
+            Subject.Text = string.Empty;
+            Body.Text = string.Empty;
         }
     }
 }

@@ -587,11 +587,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ngran\\source\\repos\\EmailSender\\EmailLibrary\\EmailFrontend\\EmailFrontend.csproj",
+      "projectUniqueName": "C:\\Users\\ngran\\Source\\Repos\\EmailSender\\EmailLibrary\\EmailFrontend\\EmailFrontend.csproj",
       "projectName": "EmailFrontend",
-      "projectPath": "C:\\Users\\ngran\\source\\repos\\EmailSender\\EmailLibrary\\EmailFrontend\\EmailFrontend.csproj",
+      "projectPath": "C:\\Users\\ngran\\Source\\Repos\\EmailSender\\EmailLibrary\\EmailFrontend\\EmailFrontend.csproj",
       "packagesPath": "C:\\Users\\ngran\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ngran\\source\\repos\\EmailSender\\EmailLibrary\\EmailFrontend\\obj\\",
+      "outputPath": "C:\\Users\\ngran\\Source\\Repos\\EmailSender\\EmailLibrary\\EmailFrontend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -612,8 +612,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\ngran\\source\\repos\\EmailSender\\EmailLibrary\\EmailLibrary\\EmailLibrary.csproj": {
-              "projectPath": "C:\\Users\\ngran\\source\\repos\\EmailSender\\EmailLibrary\\EmailLibrary\\EmailLibrary.csproj"
+            "C:\\Users\\ngran\\Source\\Repos\\EmailSender\\EmailLibrary\\EmailLibrary\\EmailLibrary.csproj": {
+              "projectPath": "C:\\Users\\ngran\\Source\\Repos\\EmailSender\\EmailLibrary\\EmailLibrary\\EmailLibrary.csproj"
             }
           }
         }

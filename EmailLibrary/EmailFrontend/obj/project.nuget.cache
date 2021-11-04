@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SYKu4RQN5+/L1uXJdam2221m+6ytkdaGdfP9XBOlwwL5WbClznZCxxNnM+2ZHajf9oYT16rOn2NmcY8C3MlJNA==",
+  "dgSpecHash": "Bjc0YV3bIUtMg9cRUtM7Qda14UiIJQyY8ZC1lBqi4rXwSKdTdjA3UTl3xOWji83Wd/Ghg7neHZYPUC0zLh3d9A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ngran\\source\\repos\\EmailSender\\EmailLibrary\\EmailFrontend\\EmailFrontend.csproj",
+  "projectFilePath": "C:\\Users\\ngran\\Source\\Repos\\EmailSender\\EmailLibrary\\EmailFrontend\\EmailFrontend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ngran\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\ngran\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

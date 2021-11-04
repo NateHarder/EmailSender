@@ -13,7 +13,7 @@
         </Grid.RowDefinitions>
         <TextBox x:Name="Body" HorizontalAlignment="Center" Height="211" Margin="0,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="599" Background="White" Grid.RowSpan="2"/>
         <TextBox x:Name="Subject" HorizontalAlignment="Center" Height="26" Margin="0,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="599" Background="White"/>
-        <Button Content="Send" HorizontalAlignment="Left" Height="25" Margin="626,227,0,0" VerticalAlignment="Top" Width="74" Grid.Row="1" Click="Button_Click"/>
+        <Button x:Name="SendButton" Content="Send" HorizontalAlignment="Left" Height="25" Margin="626,227,0,0" VerticalAlignment="Top" Width="74" Grid.Row="1" Click="Button_Click"/>
         <TextBox x:Name="Recipient" HorizontalAlignment="Center" Height="26" Margin="0,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="599" Background="White"/>
         <TextBlock HorizontalAlignment="Left" Height="15" Margin="29,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="46" RenderTransformOrigin="1.408,0.404" Text="Subject:"/>
         <TextBlock HorizontalAlignment="Left" Height="15" Margin="55,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" RenderTransformOrigin="1.408,0.404" Text="To:"/>
