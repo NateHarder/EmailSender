@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\ngran\Source\Repos\EmailSender\EmailLibrary\EmailFrontend\obj\Debug\netcoreapp3.1\
+C:\Users\ngran\Source\Repos\EmailSender\EmailLibrary\EmailFrontend\obj\Release\netcoreapp3.1\
 EmailFrontend
 none
 false
-TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
+TRACE;RELEASE;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\ngran\Source\Repos\EmailSender\EmailLibrary\EmailFrontend\App.xaml
 11407045341
 
 3-1233169557
-1941659183992
+1941607816750
 MainWindow.xaml;
 
 True
