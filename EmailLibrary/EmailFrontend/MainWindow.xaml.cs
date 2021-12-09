@@ -10,17 +10,19 @@ namespace EmailFrontend
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        public EmailLogPage emailLog;
+        public MainWindow(EmailLogPage log, string email, string password)
         {
             InitializeComponent();
+            emailLog = log;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            EmailSender.Send(Recipient.Text, Subject.Text, Body.Text);
-            Recipient.Text = string.Empty;
-            Subject.Text = string.Empty;
-            Body.Text = string.Empty;
+            EmailSender.Send(emailLog.email, emailLog.password, Recipient.Text, Subject.Text, Body.Text);
+            EmailLogPage logWindow = new EmailLogPage(emailLog.email, emailLog.password);
+            logWindow.Show();
+            this.Close();
         }
     }
 }
